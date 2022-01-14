@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: "Inter", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+section {
+  padding: 100px 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .App {
   display: flex;
   flex-direction: column;
-  align-items: center;
+} */
+
+/* Navbar */
+
+.navbar {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background: #f55a5a;
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  gap: 7px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar_logo {
+  position: relative;
+  height: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar_logo {
+  max-width: 24px;
 }
+
+.navbar_text {
+  font-weight: 500;
+  font-size: 14.4608px;
+  line-height: 18px;
+  letter-spacing: -0.075em;
+  text-decoration-line: underline;
+  color: #ffffff;
+}
+
+/* Cards */
+
+.card_wrap {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  width: 500px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card_img {
+  width: 130px;
+  height: 170px;
+  border-radius: 5px;
+}
+
+.card_dsc {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_location {
+  display: flex;
+  align-items: center;
+}
+
+.location_icon {
+  width: 8px;
+  height: 10px;
+}
+
+.location_name {
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  color: #2b283a;
+  margin-left: 4px;
+}
+
+.location_link {
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #918e9b;
+  margin-left: 12px;
+  text-decoration: none;
+}
+
+.location_icon,
+.location_name,
+.location_link {
+  margin-bottom: 10px;
+}
+
+.card_title {
+  font-size: 1.5rem;
+  line-height: 30px;
+  text-decoration-line: underline;
+  color: #2b283a;
+}
+
+.startDate,
+.endDate {
+  margin-top: 7px;
+  font-weight: bold;
+  font-size: 0.7rem;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #2b283a;
+}
+
+.desc {
+  margin-top: 9px;
+  width: 400px;
+  font-size: 0.8rem;
+  line-height: 150%;
+  text-decoration-line: underline;
+  color: #2b283a;
+}
+
+/* Viola */
