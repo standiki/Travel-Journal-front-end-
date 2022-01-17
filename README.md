@@ -11,3 +11,7 @@
 - yarn/npm install to install packages
 - yarn/npm start to start the project live
 - Happy hacking!
+
+# Screenshots
+
+![Travel Journal](../assets/Journal-app.png)
