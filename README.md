@@ -14,4 +14,4 @@
 
 # Screenshots
 
-![Travel Journal](../assets/Journal-app.png)
+![Travel Journal](/assets/Journal-app.png)
