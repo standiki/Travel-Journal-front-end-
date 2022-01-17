@@ -14,4 +14,4 @@
 
 # Screenshots
 
-![Travel Journal](process.env.PUBLIC_URL + "assets/Journal-app.png")
+![Travel Journal](../images/Journal-app.png)
