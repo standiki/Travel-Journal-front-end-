@@ -14,4 +14,4 @@
 
 # Screenshots
 
-![App Screenshot](/images/journalscreen.png)
+![App screen](/src/images/app-screen.png)
