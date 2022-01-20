@@ -14,4 +14,4 @@
 
 # Screenshots
 
-![App screen](/src/images/app-screen.png)
+![App screen](/public/images/app-screen.png)
